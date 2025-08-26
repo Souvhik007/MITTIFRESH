@@ -64,10 +64,7 @@ export const AppContextProvider = ({children})=>{
 
 
 
-       useEffect(()=>{
-
-          fetchProducts();
-       },[]);
+    
 
        const value = {navigate, user, setUser, setisSeller, isSeller, showUserLogin, setShowUserLogin, products, currency, addToCart, updateCartItem, removeFromCart, cartItems, searchQuery, setSearchQuery}
 
